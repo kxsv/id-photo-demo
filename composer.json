@@ -1,0 +1,6 @@
+{
+    "require": {
+        "guzzlehttp/guzzle": "^6.5",
+        "kosinix/grafika": "^2.0"
+    }
+}
