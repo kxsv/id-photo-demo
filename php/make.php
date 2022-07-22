@@ -3,10 +3,10 @@
 require 'vendor/autoload.php';
 
 
-$api_url = 'http://api.zheyings.cn/idcardv5/make';     //接口地址 - v5
+$api_url = 'http://api.zheyings.cn/idcardv5/make';      //接口地址 - v5
 $item_id = 1;                                           //规格id
 $key = '';                                              //api key 获取路径：官网（https://www.zjzapi.com/）/用户中心/应用管理
-$path = __DIR__.'/pic.png';                             //图片地址
+$path = __DIR__.'/../images/test.jpeg';                 //图片地址
 try {
     $client = new \GuzzleHttp\Client();
     $response = $client->request('POST', $api_url, [
