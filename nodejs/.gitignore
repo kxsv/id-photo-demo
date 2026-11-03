@@ -1,0 +1,9 @@
+# Node 依赖
+node_modules/
+
+# 运行时生成的结果图
+output/
+
+# 日志
+*.log
+npm-debug.log*

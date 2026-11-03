@@ -1,0 +1,9 @@
+# 编译产物
+*.class
+
+# 运行时生成的结果图
+output/
+
+# IDE
+.idea/
+*.iml

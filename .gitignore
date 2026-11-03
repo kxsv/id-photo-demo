@@ -1,2 +1,12 @@
-.idea
+# 共享：运行时生成的结果图（python/php 默认下载到仓库根 output/）
+/output/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 系统文件
 .DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+# .NET 构建产物
+bin/
+obj/
+publish/
+
+# 运行时生成的结果图
+output/

@@ -1,6 +1,15 @@
 {
+    "name": "zjz/id-photo-demo",
+    "description": "鹧应证件照 API 接口调用示例",
+    "license": "MIT",
     "require": {
-        "guzzlehttp/guzzle": "^6.5",
-        "kosinix/grafika": "^2.0"
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.2.34"
+        },
+        "sort-packages": true
     }
 }

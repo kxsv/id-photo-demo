@@ -1,0 +1,9 @@
+# Composer 依赖
+/vendor/
+
+# 运行时生成的结果图
+output/
+
+# 编辑器 / 缓存
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+# Python 字节码缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 运行时生成的结果图
+output/

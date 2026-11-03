@@ -1,0 +1,2 @@
+requests>=2.25
+Pillow>=9.0

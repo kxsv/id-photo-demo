@@ -1,0 +1,13 @@
+{
+  "name": "id-photo-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "鹧应证件照 API 接口调用示例",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
