@@ -163,6 +163,11 @@ dotnet run -- print             # 冲印排版（相纸联排，把做好的证�
 
 > 需 `pic_id` / `order_no` / `access_token` 的示例，先运行前置接口拿到对应参数再填入示例顶部「请求参数」区。
 
+回调示例默认使用 `http://+:8080/` 监听本机各 IP/域名；`+` 是监听通配符。
+提交订单时，`NoticeUrl` 应填写实际可访问的 `http://服务器公网IP或域名:8080/`。
+如需限定主机名，可修改 `Demos/ReceiptNotice.cs` 中的 `listener_host`。
+Windows 若提示监听权限不足，可按程序提示为当前 Windows 用户添加对应 URL 预约。
+
 ## 通用约定
 
 - **请求方式**：所有接口均为 `POST`（表单：`application/x-www-form-urlencoded`），由 `ZjzApi.PostAsync()` 统一封装。

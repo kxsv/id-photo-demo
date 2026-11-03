@@ -4,6 +4,8 @@
 
 不引入任何第三方依赖：使用 JDK 自带的 `java.net.http.HttpClient` 发请求，返回 JSON 用正则提取业务字段（生产环境建议替换为 Jackson/Gson 等成熟 JSON 库）。
 
+公共客户端提取的图片 URL 和字符串字段会解码 JSON 转义，兼容 `https:\/\/...` 和 Unicode 转义形式。
+
 ## 环境要求
 
 - JDK 11+（`java.net.http.HttpClient` 需 Java 11）
